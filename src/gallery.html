@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+  />
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+    <header>
+        <div class="bg-blue-950 p-2 ">
+            <div class=" flex flex-row justify-center items-center gap-4   ">
+                <img src="./img/facebook-logo_4406234.png" alt="" class="w-10 md:hidden  ">
+                <img src="./img/twitter-alt-circle_12107562.png" alt="" class="w-10 md:hidden">
+                <img src="./img/video_7209684.png" alt="" class="w-10 md:hidden" >
+                <img src="./img/social_11379986.png" alt="" class="w-10 md:hidden" >
+            </div>
+          
+            <div class=" flex  items-center justify-between   ">
+                <div class=" hidden md:flex items-center ">
+                    <img src="./img/location_2838709.png" alt="" class="w-10 sm:hidden md:block" >
+                    <h2 class="text-2xl flex gap-4 items-center text-white sm:hidden md:flex">Battaglia Veneto, Italy | <i class="fa-solid fa-phone-volume text-2xl gap-5 text-orange-500 text-center  md:block"></i> <p class="text-orange-500 hidden md:block">+ 00 123 456789</p> </h2>
+                    
+                </div>
+              
+                <div class="hidden gap-5 items-center  md:flex">
+                    <i class="fa-regular fa-clock text-[#EC6325]  text-2xl sm:hidden md:block"></i>
+                    <h2 class="text-2xl text-white sm:hidden md:block">Mon to Sat - 09:00 to 21:00 | </h2>
+                    <i class="fa-brands fa-facebook text-3xl text-white sm:hidden md:block"></i>
+                    <i class="fa-brands fa-x-twitter text-3xl text-white sm:hidden md:block"></i>
+                    <i class="fa-brands fa-youtube text-3xl text-white sm:hidden md:block"></i>
+                    <i class="fa-brands fa-instagram text-3xl text-white sm:hidden md:block" ></i>
+                </div>
+                
+            </div>
+        </div>
+        </header>
+
+        <div>
+            <div class="background-container w-full  bg-cover bg-center ">
+            
+                <!-- NAV STARt -->
+                <nav class=" p-4 flex flex-row justify-between items-center bg-black opacity-60  px-4  mx-auto bg-opacity-100:">
+                 <!-- ======================logo======================== -->
+                    <a href="./index.html"><img src="./img/logo.svg" alt="" class="  font-extrabold" style="width: 120px;"></a>
+                  <div class="hidden bg-black absolute top-0 left-0 w-full bg-primaryColor md:block md:static md:w-auto shadow-md shadow-secondaryColor md:shadow-none" id="navMenu">
+                    <ul class=" flex flex-col md:flex-row gap-5">
+                      <li><a href="./index.html" class="menu__hover text-white" style="text-decoration: none;">Home</a></li>
+                      <li><a href="./about.html" class="menu__hover text-white" style="text-decoration: none;">About</a></li>
+                      <!-- <li><a href="#" class="menu__hover text-white" style="text-decoration: none;">Contact</a></li> -->
+                      <li><a href="#" class="menu__hover text-white" style="text-decoration: none;">Gallery</a></li>
+                    </ul>
+                    <!--  -->
+                    <div class=" absolute top-[0.7rem] right-4 text-2xl" id="navClose">
+                      <i class="fa-solid fa-xmark text-white"></i>
+                    </div>
+                  </div>
+                 <!--==================== icon mode======================= -->
+                 <div class="flex items-center gap-5">
+    
+                   <div class="flex md:hidden" id="navHamburger">
+                     <i class="ri-menu-line text-2xl text-white font-extrabold"></i>
+                   </div>
+               
+                 </div>
+                </nav>
+                    <div class="flex flex-col items-center md:items-start mt-3 pb-3">
+                        <div><h1 class="font-bold text-white">Gallery</h1></div>
+                        <div><h5 class="font-bold text-white">HOME - Gallery</h5></div>
+                    </div>
+                </div>
+                <!-- NAV END -->
+               
+                <!-- body -->
+                 <div class="p-1 flex flex-col justify-center text-center items-center">
+                  <p class="text-orange-500 font-bold">VISUAL DELIGHT</p>
+                  <h1> Dive into the Gallery Experience</h1>
+                 </div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 ">
+                  <div class=" flex flex-col gap-4">
+                    <div><img src="./img/Gallery/irsr up.jpg" alt="" class=" rounded-3xl"></div>
+                    <div><img src="./img/Gallery/firrst down.jpg" alt="" class=" rounded-3xl"></div>
+                  </div>
+                  <div>
+                    <img src="./img/Gallery/long1.jpg" alt="" class="rounded-3xl">
+                  </div>
+                  <div class=" flex flex-col gap-4">
+                    <div><img src="./img/Gallery/third up.jpg" alt="" class=" rounded-3xl"></div>
+                    <div><img src="./img/Gallery/third down.jpg" alt="" class=" rounded-3xl"></div>
+                  </div>
+
+                  <div class="flex flex-col gap-4">
+                    <div><img src="./img/Gallery/up.jpg" alt="" class="rounded-3xl"></div>
+                    <div><img src="./img/Gallery/down.jpg" alt="" class="rounded-3xl"></div>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 ">
+                  <div class=" flex flex-col gap-4">
+                    <div><img src="./img/Gallery/sec 1 up.webp" alt="" class=" rounded-3xl"></div>
+                    <div><img src="./img/Gallery/sec 1 down.webp" alt="" class=" rounded-3xl"></div>
+                  </div>
+                 
+                  <div class=" flex flex-col gap-4">
+                    <div><img src="./img/Gallery/sec 2 up.webp" alt="" class=" rounded-3xl"></div>
+                    <div><img src="./img/Gallery/sec 2 down.webp" alt="" class=" rounded-3xl"></div>
+                  </div>
+
+                  <div>
+                    <img src="./img/Gallery/sec long.webp" alt="" class="rounded-3xl">
+                  </div>
+
+                  <div class="flex flex-col gap-4">
+                    <div><img src="./img/Gallery/sec 3 up.webp" alt="" class="rounded-3xl"></div>
+                    <div><img src="./img/Gallery/sec 3 down.webp" alt="" class="rounded-3xl"></div>
+                  </div>
+                </div>
+
+
+                <!--  -->
+
+                <!-- Footer -->
+                <footer class="bg-blue-950 text-white p-10">
+
+        
+                  <div class="grid grid-cols-1 md:grid-cols-2  border-gray-100 pt-8  " >
+                    <div class="text-white flex flex-col justify-center md:justify-start items-center md:items-start  gap-4">
+                      <div class="px-4"><img src="./img/logo.svg" alt="" class=" flex font-extrabold text-center justify-center items-center" style="width: 120px;"></div>
+                      <h6 class=" px-4">Ut eleifend mattis ligula, porta finibus urna gravida at.<br class="hidden md:block text-start">Aenean vehiculles arcu non mattis Integer</h6>
+                      
+                      
+                      <div class=" max-w-screen-xl space-y-8 px-4 py-1 sm:px-6 lg:space-y-16 lg:px-8">
+                        <div class="sm:flex md:flex-col items-center sm:justify-between md:items-start">
+                          <div class="text-lg text-nowrap">
+                           <h3 class="flex md:hidden">Follow us on Social Media</h3>
+                           <h4>Follow us on Social Media</h4>
+                          </div>
+                    
+                          <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end items-center">
+                            
+                            <li>
+                             
+                                <span class="sr-only">Instagram</span>
+                                <i class="fa-brands fa-facebook text-3xl text-white sm:hidden md:block"></i>
+                            </li>
+                    
+                            <li>
+                              
+                                <span class="sr-only">Twitter</span>
+                    
+                                <i class="fa-brands fa-x-twitter text-3xl text-white sm:hidden md:block"></i>
+                    
+                              
+                            </li>
+                    
+                            <li>
+                             
+                                <span class="sr-only">GitHub</span>
+                                <i class="fa-brands fa-youtube text-3xl text-white sm:hidden md:block"></i>
+                            </li>
+                    
+                            <li>
+                            
+                                <span class="sr-only">Dribbble</span>
+                    
+                                <i class="fa-brands fa-instagram text-3xl text-white sm:hidden md:block" ></i>
+                             
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                      <div>
+      
+                        <ul class="mt-6 space-y-4 text-sm text-center">
+                          <li>
+                            <h3>Download our App</h3>  
+                          </li>
+                
+                          <div class=" flex flex-col text-center items-center gap-3">
+                            <div><img src="./img/app-store.png" alt=""></div>
+                            <div class="bg-[#1D3A53] p-3 rounded-3xl flex"><img src="./img/playstore remove.png" alt="" class="w-10"><div class="text-start"><h>Get it on</h5><h3>Google Play</h2></div></div>
+                          </div>
+                        </ul>
+      
+                      </div>
+      
+                      
+                    </div>
+              
+              
+              
+                    <div >
+                      <div class="grid grid-cols-1 gap-3">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          <div class="flex flex-col md:flex-row  items-center bg-[#28455D] bg-opacity-50 px-3 py-2 rounded-3xl">
+      
+                           <div>
+                            <img src="./img/contact-img.png" alt="" class=" md:w-[600px] ">
+                           </div> 
+      
+                           <div>
+                             Need to sell or buy? Donec in bibendum nulla. Sed rdum Contact Us Subscribe for property updates
+                           </div>
+      
+                          </div>
+      
+                          <div>
+                            <h4>Subscribe for property updates</h4>
+                            <div class="w-full flex flex-col md:flex-row py-2 px-1 gap-2">
+                              <input type="email" name="" id="" class=" bg-[#28455D] p-3 rounded-3xl placeholder:text-white" placeholder="Enter your Mail id">
+                              <button class="bg-orange-500 p-3 rounded-3xl hover:bg-black hover:animate-pulse ">Search</button>
+                            </div>
+                            <div>
+                              <input type="radio" name="" id="" class="ms-3"> I agree with the terms & conditions
+                            </div>
+                          </div>
+      
+                        </div>
+      
+                        <div class=" flex flex-col md:hidden gap-4">
+                          <div class="bg-[#28455D] p-2 flex justify-between "><h3>Pages</h3>
+                          <h1 class="font-bold">+</h1></div>
+                          <div class="bg-[#28455D] p-2 flex justify-between " ><h3>Inner Pages</h3>
+                          <h1 class="font-bold">+</h1></div>
+                          <div class="bg-[#28455D] p-2 flex justify-between  " ><h3>Utility Pages</h3>
+                          <h1 class="font-bold">+</h1></div>
+                          <div class="bg-[#28455D] p-2 flex justify-between  " ><h3>Quick Links</h3>
+                          <h1 class="font-bold">+</h1></div>
+                        </div>
+      
+      
+      
+      
+      
+      
+                        <div class="py-2 hidden md:flex flex-row justify-center md:justify-between mt-4">
+                           <div>
+                            <ul class="flex flex-col gap-3 justify-between ">
+                              <li class="font-bold">Pages</li>
+                              <li>Home01</li>
+                              <li>Home02</li>
+                              <li>About Us</li>
+                              <li>Gallery</li>
+                              <li>Service</li>
+                             </ul>
+                           </div>
+      
+                           <div>
+                            <ul class="flex flex-col gap-3 justify-between ">
+                              <li class="font-bold">Inner Pages</li>
+                              <li>Property Listing</li>
+                              <li>Property Detail</li>
+                              <li>Property Plans</li>
+                              <li>locate Property</li>
+                              <li>Agent Profile</li>
+                              <li>Property Gallery</li>
+                             </ul>
+                           </div>
+      
+                           <div>
+                            <ul class="flex flex-col gap-3 justify-between ">
+                              <li class="font-bold">Utility Pages</li>
+                              <li>Accessibility</li>
+                              <li>Advertise</li>
+                              <li>Mobile App</li>
+                              <li>Agent Blog</li>
+                              <li>Media Room</li>
+                             </ul>
+                           </div>
+      
+                           <div>
+                            <ul class="flex flex-col gap-3 justify-between ">
+                              <li class="font-bold">Quick Links</li>
+                              <li>Terms of Use</li>
+                              <li>Privacy Policy</li>
+                              <li>Pricing Plans</li>
+                              <li>Our Services</li>
+                              <li>Contact Support</li>
+                              <li>Careers</li>
+                             </ul>
+                           </div>
+      
+                        </div>
+                      </div>
+                    </div>
+              
+                        
+                  </div>
+              
+                  <p class="text-xs text-gray-500">&copy; 2022. Ascent Homes. All rights reserved.</p>
+                </div>
+              </footer>
+      
+      
+                <!-- Footer close -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- footer -->
+        <!-- <footer class="bg-blue-950 text-white p-10 mt-5">
+
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 border-gray-100 pt-8  lg:pt-16" >
+              <div class="text-white flex flex-col justify-center md:justify-start items-center md:items-start  gap-4">
+                <div class="px-4"><img src="./img/logo.svg" alt="" class=" flex font-extrabold text-center justify-center items-center" style="width: 120px;"></div>
+                <h6 class=" px-4">Ut eleifend mattis ligula, porta finibus urna gravida at.<br class="hidden md:block text-start">Aenean vehiculles arcu non mattis Integer</h6>
+                
+                
+                <div class=" max-w-screen-xl space-y-8 px-4 py-1 sm:px-6 lg:space-y-16 lg:px-8">
+                  <div class="sm:flex md:flex-col items-center sm:justify-between md:items-start">
+                    <div class="text-lg text-nowrap">
+                     <h3 class="flex md:hidden">Follow us on Social Media</h3>
+                     <h4>Follow us on Social Media</h4>
+                    </div>
+              
+                    <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end items-center">
+                      
+                      <li>
+                       
+                          <span class="sr-only">Instagram</span>
+                          <i class="fa-brands fa-facebook text-3xl text-white sm:hidden md:block"></i>
+                      </li>
+              
+                      <li>
+                        
+                          <span class="sr-only">Twitter</span>
+              
+                          <i class="fa-brands fa-x-twitter text-3xl text-white sm:hidden md:block"></i>
+              
+                        
+                      </li>
+              
+                      <li>
+                       
+                          <span class="sr-only">GitHub</span>
+                          <i class="fa-brands fa-youtube text-3xl text-white sm:hidden md:block"></i>
+                      </li>
+              
+                      <li>
+                      
+                          <span class="sr-only">Dribbble</span>
+              
+                          <i class="fa-brands fa-instagram text-3xl text-white sm:hidden md:block" ></i>
+                       
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div>
+
+                  <ul class="mt-6 space-y-4 text-sm text-center">
+                    <li>
+                      <h3>Download our App</h3>  
+                    </li>
+          
+                    <div class=" flex flex-col text-center items-center gap-3">
+                      <div><img src="./img/app-store.png" alt=""></div>
+                      <div class="bg-[#1D3A53] p-3 rounded-3xl flex"><img src="./img/playstore remove.png" alt="" class="w-10"><div class="text-start"><h>Get it on</h5><h3>Google Play</h2></div></div>
+                    </div>
+                  </ul>
+
+                </div>
+
+                
+              </div>
+        
+        
+        
+              <div>
+                <div class="grid grid-cols-1 gap-3">
+                  <div class=" flex flex-col md:flex-row gap-3">
+                    <div><img src="./img/contact-img.png" alt="" class="w-full md:w-[1500px]"></div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quod nesciunt asperiores quaerat reiciendis autem accusamus debitis tempora maxime praesentium tempore dolore eius quia sint ducimus repellat optio facilis earum.</div>
+                  </div>
+
+                  <div class="px-5 py-2 flex flex-row justify-center">
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between text-2xl">
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                       </ul>
+                     </div>
+
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between text-2xl">
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                       </ul>
+                     </div>
+
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between text-2xl">
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                       </ul>
+                     </div>
+
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between text-2xl">
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                        <li>enjoy</li>
+                       </ul>
+                     </div>
+
+                  </div>
+                </div>
+              </div>
+        
+                  
+            </div>
+        
+            <p class="text-xs text-gray-500">&copy; 2022. Ascent Homes. All rights reserved.</p>
+          </div>
+        </footer> -->
+
+
+            
+       
+            <script src="./main.js"></script>
+</body>
+</html>
+
+

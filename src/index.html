@@ -1,0 +1,558 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    
+    <header>
+        <div class="bg-blue-950 p-2 ">
+            <div class=" flex flex-row justify-center items-center gap-4   ">
+                <img src="./img/facebook-logo_4406234.png" alt="" class="w-10 md:hidden  ">
+                <img src="./img/twitter-alt-circle_12107562.png" alt="" class="w-10 md:hidden">
+                <img src="./img/video_7209684.png" alt="" class="w-10 md:hidden" >
+                <img src="./img/social_11379986.png" alt="" class="w-10 md:hidden" >
+            </div>
+          
+            <div class=" flex  items-center justify-between   ">
+                <div class=" hidden md:flex items-center ">
+                    <img src="./img/location_2838709.png" alt="" class="w-10 sm:hidden md:block" >
+                    <h2 class="text-2xl flex gap-4 items-center text-white sm:hidden md:flex">Battaglia Veneto, Italy | <i class="fa-solid fa-phone-volume text-2xl gap-5 text-orange-500 text-center  md:block"></i> <p class="text-orange-500 hidden md:block">+ 00 123 456789</p> </h2>
+                    
+                </div>
+              
+                <div class="hidden gap-5 items-center  md:flex">
+                    <i class="fa-regular fa-clock text-[#EC6325]  text-2xl sm:hidden md:block"></i>
+                    <h2 class="text-2xl text-white sm:hidden md:block">Mon to Sat - 09:00 to 21:00 | </h2>
+                    <i class="fa-brands fa-facebook text-3xl text-white sm:hidden md:block"></i>
+                    <i class="fa-brands fa-x-twitter text-3xl text-white sm:hidden md:block"></i>
+                    <i class="fa-brands fa-youtube text-3xl text-white sm:hidden md:block"></i>
+                    <i class="fa-brands fa-instagram text-3xl text-white sm:hidden md:block" ></i>
+                </div>
+                
+            </div>
+        </div>
+        </header>
+
+        <div class="background-container w-full  bg-cover bg-center ">
+            
+            <!-- NAV STARt -->
+            <nav class=" p-4 flex flex-row justify-between items-center bg-black opacity-60  px-4  mx-auto bg-opacity-100:">
+             <!-- ======================logo======================== -->
+                <a href="./index.html"><img src="./img/logo.svg" alt="" class="  font-extrabold" style="width: 120px;"></a>
+              <div class="hidden bg-black absolute top-0 left-0 w-full bg-primaryColor md:block md:static md:w-auto shadow-md shadow-secondaryColor md:shadow-none" id="navMenu">
+                <ul class=" flex flex-col md:flex-row gap-5">
+                  <li><a href="#" class="menu__hover text-white" style="text-decoration: none;">Home</a></li>
+                  <li><a href="./about.html" class="menu__hover text-white" style="text-decoration: none;">About</a></li>
+                  <!-- <li><a href="#" class="menu__hover text-white" style="text-decoration: none;">Contact</a></li> -->
+                  <li><a href="./gallery.html" class="menu__hover text-white" style="text-decoration: none;">Gallery</a></li>
+                </ul>
+                <!--  -->
+                <div class=" absolute top-[0.7rem] right-4 text-2xl" id="navClose">
+                  <i class="fa-solid fa-xmark text-white"></i>
+                </div>
+              </div>
+             <!--==================== icon mode======================= -->
+             <div class="flex items-center gap-5">
+
+               <div class="flex md:hidden" id="navHamburger">
+                 <i class="ri-menu-line text-2xl text-white font-extrabold"></i>
+               </div>
+           
+             </div>
+            </nav>
+            <!-- NAV END -->
+
+            <!-- content Start -->
+            <div class="p-10  md:pt-[150px] flex flex-col justify-center  md:justify-start my-10  px-10">
+                <!-- upper text -->
+                <div class=""  >
+                   <div> <h6 class="text-[#EC6325] text-center md:text-start brightness-105 ">MOST TRUSTED</h6></div>
+                
+                    <div class="text-white : text-2xl md:text-3xl text-wrap text-center md:text-start font-extrabold  "> 
+                    Perfect Firm For Selling Or Leasing <br class="hidden md:flex"> Houses, Flats, And Villas 
+                  </div>
+                </div>
+            <!--  -->
+            
+            <div class="pt-10 mb-10 ">
+                <div class=" flex flex-wrap md:flex-nowrap  gap-5 md:gap-2 justify-center items-center p-9 md:p-2 bg-white rounded-t-2xl w-full md:w-96">
+                    <div class="flex gap-1"><input type="radio" name="" id="">  For Lease </div> 
+                    <div><input type="radio" name="" id=""> For Rent</div> 
+                    <div><input type="radio" name="" id=""> For Sales</div>
+                </div>
+                <div class="px-5 py-5 grid grid-cols-1 md:grid-cols-4  bg-white rounded-b-2xl gap-4">
+                  <div class="h-20  rounded-2xl "><input class="w-full h-20 px-3 rounded-2xl bg-[#EAF0F5] bg-blend-darken" type="text" placeholder="User Name"></div>
+                  <div class="h-20  rounded-2xl "><input class="w-full h-20 px-3 rounded-2xl bg-[#EAF0F5]" type="text" placeholder="Purpose"></div>
+                  <div class="h-20  rounded-2xl "><input class="w-full h-20 px-3 rounded-2xl bg-[#EAF0F5]" type="text" placeholder="Apartment Spec"></div>
+                  <div class="h-20 bg-[#EC6325] rounded-2xl hover:bg-orange-400 hover:an">
+                    <button ><input type="button" value="" placeholder="Search" class=" flex text-white text-center items-center px-5"><h3 class="text-white ">Search</h3></button>
+                  </div>
+                </div>
+            </div>
+
+            <div class=" grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-x-0 w-full md:w-[900px]">
+              <div class="bg-black opacity-65 text-white w-fit p-2 rounded-lg"><i class="fa-solid fa-house text-orange-500 "></i> Over 2M Properties.</div>
+              <div class="bg-black  opacity-65 text-white w-fit p-2 rounded-lg"><i class="fa-solid fa-face-smile text-orange-500"> </i> 46,789 peoples happy</div>
+              <div class="bg-black opacity-65 text-white w-fit p-2 rounded-lg"><i class="fa-solid fa-star text-orange-500"></i><i class="fa-solid fa-star text-orange-500"></i><i class="fa-solid fa-star text-orange-500"></i><i class="fa-solid fa-star text-orange-500"></i><i class="fa-solid fa-star text-orange-500"></i> 4.8 Top rated by People</div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Body -->
+
+        <div class="p-10">
+          <div class="flex flex-col  ">
+
+            <div class="flex flex-col justify-center items-center mb-3">
+              <div class="text-orange-500 ">NEWLY LISTED</div>
+              <div class=" items-center p-2 "><h1 class="text-wrap text-center">Search By Property Requirement </h1></div>
+              <!-- <h3 class="text-orange-500">NEWLY LISTED</h3><h1 class=" flex flex-wrap justify-centeritems-center font-black"> Search By Property Requirement</h1> -->
+            </div>
+            
+            
+
+            <div id="carouselExampleCaptions" class="carousel slide bg-white shadow-2xl rounded-3xl ">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="submit" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class=" flex flex-col bg-[#EAF0F5]  p-10 bg-blac rounded-3xl gap-3">
+                    <div class="p-2 bg-white w-fit rounded-2xl "><img src="./img/appartment.png" alt=""></div>
+                    <div class=" pt-3 "><h1>Appartment</h1> <div class=""><a href="" class="text-black" style="text-decoration: none;"><h6>6 Properties</h6></a></div> <div class="hidden hover">jsjsjsjh</div></div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="flex flex-col p-10 bg-blue-500 rounded-2xl gap-3">
+                    <div class="p-10 bg-orange-500 "></div>
+                    <div class="p-10 bg-orange-500 "></div>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="flex flex-col p-10 bg-yellow-500 rounded-2xl gap-3">
+                    <div class="p-10 bg-orange-500 "></div>
+                    <div class="p-10 bg-orange-500 "></div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev   " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+              </button>
+              <button class="carousel-control-next  " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 mt-5 gap-5 bg-contain " style="background-image: url(./img/filler-background.png); background-repeat: no-repeat;  ">
+            <div class=" relative">
+              <!-- <div><img src="./img/Property-Listing-04.jpg" alt="" class="rounded-3xl"> <div class="p- bg-black"><img src="./img/clients.png" alt="" class="absolute bottom-52 start-3"></div></div> -->
+             <!-- <div class="p- flex bg-white items-center"> <img src="./img/Property-Listing-26.jpg" alt="" class="absolute top-0 right-0 w-80 items-center rounded-3xl "></div> -->
+             <div><img src="./img/Property-Listing-26.jpg" alt="" class="  items-center rounded-3xl "></div>
+            </div>
+
+            <div>
+              <div class="text-orange-500">WORLDWIDE PROPERTIES</div>
+              <div><h1>Welcome To Our Luxurious Properties, With All The Conveniences.</h1></div>
+              <div><p>Arcu ac tortor dignissim convallis aenean et tortor at.Ac turpis egestas sed tempus urna et. Quisque eu pellentesque erat, eget bibendum ipsum. Cras euismod massa sed lacus lacinia, quis porta libero consectetur. In pulvinar lobortis eros vitae dapibus. Vestibu</p></div>
+              <div class="grid grid-cols-2">
+                <div><img src="./img/communications_7959385.png" alt="" class="w-20"><h4>Answer Questions</h4><p> Phasellus ornare scelerisque eleifend donec pretium nec.</p></div>
+                <div><img src="./img/communications_7959385.png" alt="" class="w-20"><h4>Answer Questions</h4><p> Phasellus ornare scelerisque eleifend donec pretium nec.</p></div>
+              </div>
+              <div class="flex gap-3">
+                <div class="mt-4"><button class="bg-orange-500 p-2 rounded-2xl w-48">Explore Properties</button></div>
+                <div class="md:flex text-center text-wrap items-start hidden">
+                  <div><img src="./img/phone-telephone-icon_192037-7823.avif" alt="" class="w-20"></div>
+                  <div class="text-start pt-3"><h4 class="text">Call Us Anytime</h2>
+                    <p>+00 123 456789</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Cards -->
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 rounded-2xl mt-3 ">
+             
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house1.jpeg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 150,000,000 </h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">3bedroom apartment for sale  </p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Luxurious master bedroom,Luxurious sitting room, 24 hours electricity, large parking space,library and two sitting room. </p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location: Abuja </p>
+                  <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+            
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Property-Listing-18.jpg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 170,000,000</h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">3 bedroom apartment for sale in lekki </p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Luxurious matster bedroom, swiming pool, parking space, 24hours electricity. </p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location:lekki, Lagos </p>
+                  <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+
+
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house6.jpeg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 500,000,000</h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">An underground building with 3bedroom apartment overground and 2bedroom apartment underground, 24 hrours light</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location: Abuja </p>
+                  <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+
+
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house2.jpeg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 300,000 <h6 class="font-normal">Montly</h6></h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">3bedroom apartment, spacious surrounding,2 hours electricity, kitchen with dinning, Dinning </p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location:Ajah, Lagos </p>
+                  <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+
+
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house3.jpeg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 1,900,000</h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">3 bedroom apartment for rent in Banana Highland.</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Luxurious living room and spacious room, water heater, wardrobe, kitchen cabinet, 24/7 electricity, parking space and secured environment</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location: Banana Highland, Lagos</p>
+                  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+
+
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house4.jpeg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 2,000,000</h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">2bdrm Block of Flats in Aco Estate, FHA for rent</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">en-suite and spacious room, water heater, wardrobe, kitchen cabinet, parking space and secured environment</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location:  aco estate lugbe.</p>
+                  <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+
+
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house7.jpeg" alt="" />
+              </a>
+              <div class="p-2">
+                  <a href="#" style="text-decoration: none;">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">₦ 13,000,000 <p class="font-normal text-lg">per annum</p></h5>
+                  </a>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400 ">New 5bdrm Duplex in Ikate for rent</p> 
+                  
+              
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Legal fees 10%</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Service charge yet to be determined</p>
+                  <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Location: Ikate</p>
+                  <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                  <a href="#">
+                      <img class="rounded-t-lg w-full h-60" src="./img/Gallery/house9.jpeg" alt="" />
+                  </a>
+                  <div class="p-3">
+                      <a href="#" style="text-decoration: none;">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> ₦ 200,000,000</h5>
+                      </a>
+                      <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">Brand new 3 bedroom terrace duplex & bq For sale valley estate Asokoro. </p>
+                         <p class="font-bold">24 hours electricity, parking space, playground and a library.</p>
+                         <p class="font-bold">Location:Asokoro </p>
+                      <a href="#" style="text-decoration: none;" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                          Read more
+                           <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+          <!-- Card close -->
+
+          
+        </div>
+
+        <!-- Body close -->
+
+        <!-- footer -->
+        <footer class="bg-blue-950 text-white p-10">
+
+        
+            <div class="grid grid-cols-1 md:grid-cols-2  border-gray-100 pt-8  " >
+              <div class="text-white flex flex-col justify-center md:justify-start items-center md:items-start  gap-4">
+                <div class="px-4"><img src="./img/logo.svg" alt="" class=" flex font-extrabold text-center justify-center items-center" style="width: 120px;"></div>
+                <h6 class=" px-4">Ut eleifend mattis ligula, porta finibus urna gravida at.<br class="hidden md:block text-start">Aenean vehiculles arcu non mattis Integer</h6>
+                
+                
+                <div class=" max-w-screen-xl space-y-8 px-4 py-1 sm:px-6 lg:space-y-16 lg:px-8">
+                  <div class="sm:flex md:flex-col items-center sm:justify-between md:items-start">
+                    <div class="text-lg text-nowrap">
+                     <h3 class="flex md:hidden">Follow us on Social Media</h3>
+                     <h4>Follow us on Social Media</h4>
+                    </div>
+              
+                    <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end items-center">
+                      
+                      <li>
+                       
+                          <span class="sr-only">Instagram</span>
+                          <i class="fa-brands fa-facebook text-3xl text-white sm:hidden md:block"></i>
+                      </li>
+              
+                      <li>
+                        
+                          <span class="sr-only">Twitter</span>
+              
+                          <i class="fa-brands fa-x-twitter text-3xl text-white sm:hidden md:block"></i>
+              
+                        
+                      </li>
+              
+                      <li>
+                       
+                          <span class="sr-only">GitHub</span>
+                          <i class="fa-brands fa-youtube text-3xl text-white sm:hidden md:block"></i>
+                      </li>
+              
+                      <li>
+                      
+                          <span class="sr-only">Dribbble</span>
+              
+                          <i class="fa-brands fa-instagram text-3xl text-white sm:hidden md:block" ></i>
+                       
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div>
+
+                  <ul class="mt-6 b space-y-4 text-sm text-center">
+                    <li>
+                      <h3>Download our App</h3>  
+                    </li>
+          
+                    <div class=" flex flex-col text-center items-center gap-3">
+                      <div><img src="./img/app-store.png" alt=""></div>
+                      <a href="https://play.google.com/store/apps/dev?id=7989523405042027763" style="text-decoration: none; "><div class="bg-[#1D3A53] p-3 rounded-3xl flex"><img src="./img/playstore remove.png" alt="" class="w-10"><div class="text-start"><h class="text-white">Get it on</h5><h3 class="text-white">Google Play</h2></div></div></a>
+                    </div>
+                  </ul>
+
+                </div>
+
+                
+              </div>
+        
+        
+        
+              <div >
+                <div class="grid grid-cols-1 gap-3">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div class="flex flex-col md:flex-row  items-center bg-[#28455D] bg-opacity-50 px-3 py-2 rounded-3xl">
+
+                     <div>
+                      <img src="./img/contact-img.png" alt="" class=" md:w-[600px] ">
+                     </div> 
+
+                     <div>
+                       Need to sell or buy? Donec in bibendum nulla. Sed rdum Contact Us Subscribe for property updates
+                     </div>
+
+                    </div>
+
+                    <div>
+                      <h4>Subscribe for property updates</h4>
+                      <div class="w-full flex flex-col md:flex-row py-2 px-1 gap-2">
+                        <input type="email" name="" id="" class=" bg-[#28455D] p-3 rounded-3xl placeholder:text-white" placeholder="Enter your Mail id">
+                        <button class="bg-orange-500 p-3 rounded-3xl hover:bg-black hover:animate-pulse ">Search</button>
+                      </div>
+                      <div>
+                        <input type="radio" name="" id="" class="ms-3"> I agree with the terms & conditions
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class=" flex flex-col md:hidden gap-4">
+                    <div class="bg-[#28455D] p-2 flex justify-between "><h3>Pages</h3>
+                    <h1 class="font-bold">+</h1></div>
+                    <div class="bg-[#28455D] p-2 flex justify-between " ><h3>Inner Pages</h3>
+                    <h1 class="font-bold">+</h1></div>
+                    <div class="bg-[#28455D] p-2 flex justify-between  " ><h3>Utility Pages</h3>
+                    <h1 class="font-bold">+</h1></div>
+                    <div class="bg-[#28455D] p-2 flex justify-between  " ><h3>Quick Links</h3>
+                    <h1 class="font-bold">+</h1></div>
+                  </div>
+
+
+
+
+
+
+                  <div class="py-2 hidden md:flex flex-row justify-center md:justify-between mt-4">
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between ">
+                        <li class="font-bold">Pages</li>
+                        <li>Home01</li>
+                        <li>Home02</li>
+                        <li>About Us</li>
+                        <li>Gallery</li>
+                        <li>Service</li>
+                       </ul>
+                     </div>
+
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between ">
+                        <li class="font-bold">Inner Pages</li>
+                        <li>Property Listing</li>
+                        <li>Property Detail</li>
+                        <li>Property Plans</li>
+                        <li>locate Property</li>
+                        <li>Agent Profile</li>
+                        <li>Property Gallery</li>
+                       </ul>
+                     </div>
+
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between ">
+                        <li class="font-bold">Utility Pages</li>
+                        <li>Accessibility</li>
+                        <li>Advertise</li>
+                        <li>Mobile App</li>
+                        <li>Agent Blog</li>
+                        <li>Media Room</li>
+                       </ul>
+                     </div>
+
+                     <div>
+                      <ul class="flex flex-col gap-3 justify-between ">
+                        <li class="font-bold">Quick Links</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy Policy</li>
+                        <li>Pricing Plans</li>
+                        <li>Our Services</li>
+                        <li>Contact Support</li>
+                        <li>Careers</li>
+                       </ul>
+                     </div>
+
+                  </div>
+                </div>
+              </div>
+        
+                  
+            </div>
+        
+            <p class="text-xs text-gray-500">&copy; 2022. Ascent Homes. All rights reserved.</p>
+          </div>
+        </footer>
+
+        <!-- <div class="animate-ping bg-orange-400 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloremque ullam aliquid, aspernatur voluptatum deleniti iusto ea non deserunt earum molestias officia omnis neque? Amet eum quam consequuntur dicta neque.</div> -->
+        <script src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @layer components{
+        .background-container {
+            animation: change-background 20s infinite;
+            
+          }
+        @keyframes change-background {
+            0% {
+              background-image: url("img/landing2.jpg");
+            }
+            40.33% {
+              background-image: url("img/landing1.jpg");
+            }
+            77.66% {
+              background-image: url("img/landing1.jpg");
+            }
+            100% {
+              background-image: url("img/landing2.jpg");
+            }
+          }
+    }
+    @layer utilities{
+
+
+    }
+}
